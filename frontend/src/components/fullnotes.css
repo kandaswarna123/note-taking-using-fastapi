@@ -1,0 +1,80 @@
+.full-note-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .full-note-container h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .full-note-container h3 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+  }
+  
+  .full-note-container p {
+    color: #34495e;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .full-note-container input[type="text"],
+  .full-note-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .full-note-container textarea {
+    height: 150px;
+    resize: vertical;
+  }
+  
+  .full-note-container button {
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .full-note-container button:hover {
+    opacity: 0.9;
+  }
+  
+  .edit-button {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .delete-button {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .save-button {
+    background-color: #2ecc71;
+    color: white;
+  }
+  
+  .cancel-button {
+    background-color: #95a5a6;
+    color: white;
+  }
+  
+  .back-button {
+    background-color: #34495e;
+    color: white;
+    display: block;
+    margin-top: 20px;
+  }
